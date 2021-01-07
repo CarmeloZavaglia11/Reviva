@@ -1,4 +1,4 @@
-<h1>Reviva Rroject :computer:</h1>
+<h1>Reviva Project :computer:</h1>
 
 ------------------------
 
