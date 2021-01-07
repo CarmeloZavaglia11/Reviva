@@ -41,9 +41,9 @@
                 $this->importduty = 0;
             }
 
-            $this->totalSalesTaxes = round(($this->total * $this->salestax / 100) * 2, 1) / 2;
+            $this->totalSalesTaxes = ceil(($this->total * $this->salestax / 100) * 2, 1) / 2;
 
-            $this->totalImportDuty = round(($this->total * $this->importduty / 100) * 2, 1) / 2;
+            $this->totalImportDuty = ceil(($this->total * $this->importduty / 100) * 2, 1) / 2;
 
             $this->totalTaxes = $this->totalSalesTaxes + $this->totalImportDuty;
 
